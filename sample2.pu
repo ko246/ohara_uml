@@ -1,0 +1,10 @@
+@startuml sample2
+object ぐー
+object ちょき
+object ぱー
+
+ぐー <-- ぱー
+ぱー <-- ちょき
+ちょき <-- ぐー
+
+@enduml
