@@ -1,0 +1,12 @@
+@startuml usecase
+left to right direction
+actor "ユーザー" as fc
+rectangle じゃんけんで出せるもの {
+    usecase "ぐー" as UC1
+    usecase "ちょき" as UC2
+    usecase "ぱー" as UC3
+}
+fc --> UC1
+fc --> UC2
+fc --> UC3
+@enduml
