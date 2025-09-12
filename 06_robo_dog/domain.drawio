@@ -1,0 +1,61 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="amEJETP_Z8cL20hDyL4J" name="ページ1">
+    <mxGraphModel dx="589" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Np48X8nKloXkiLZQDspb-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;endSize=15;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Np48X8nKloXkiLZQDspb-3" target="Np48X8nKloXkiLZQDspb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="318" y="140" as="sourcePoint" />
+            <mxPoint x="318" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-2" value="RoboDog" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="358" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-3" value="名前" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="118" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-6" value="時刻" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="238" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-7" value="挨拶" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="358" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;endSize=15;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Np48X8nKloXkiLZQDspb-6" target="Np48X8nKloXkiLZQDspb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="218" y="260" as="sourcePoint" />
+            <mxPoint x="301" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;endSize=15;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Np48X8nKloXkiLZQDspb-7" target="Np48X8nKloXkiLZQDspb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="488" y="240" as="sourcePoint" />
+            <mxPoint x="398" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-10" value="２つの整数" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="478" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-11" value="足し算結果" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="598" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;endSize=15;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Np48X8nKloXkiLZQDspb-11" target="Np48X8nKloXkiLZQDspb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610.5" y="230" as="sourcePoint" />
+            <mxPoint x="615.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Np48X8nKloXkiLZQDspb-10" target="Np48X8nKloXkiLZQDspb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="508" y="230" as="sourcePoint" />
+            <mxPoint x="572" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Np48X8nKloXkiLZQDspb-15" value="ドメインモデル＝名刺リストを線で結んだもの" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="38" y="13" width="440" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
