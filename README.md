@@ -1,5 +1,9 @@
 # Link
+<<<<<<< HEAD
 - [GitHubのリポジトリ](https://github.com/ko246/ohara_uml)
+=======
+- [GitHubのリポジトリ](https://github.com/RyoSakon001/ohara_uml)
+>>>>>>> c7e3fdaba82e0955b14040ef6b0a05f1c5ad16af
 - [PlantUML公式ドキュメント](https://plantuml.com/ja/)
 - [drawio](https://app.diagrams.net/)
 
