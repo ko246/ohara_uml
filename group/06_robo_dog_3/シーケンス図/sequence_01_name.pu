@@ -10,7 +10,6 @@ NameChangeUI -> NameChangeCtrl : 名前変更要求()
 NameChangeCtrl -> RoboDog : 名前を更新()
 
 ' 表示画面を作るかは検討中
-RoboDog --> NameChangeCtrl : 更新結果()
-NameChangeCtrl --> NameChangeUI : 結果を返す()
+RoboDog --> NameChangeCtrl : 結果を返す()
 
 @enduml
