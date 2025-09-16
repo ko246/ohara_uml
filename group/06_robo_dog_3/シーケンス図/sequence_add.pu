@@ -1,0 +1,14 @@
+@startuml
+
+actor ユーザー as User
+boundary 足し算機能 as AddUI
+control 足し算処理 as AddCtrl
+entity RoboDog as RoboDog
+
+User -> AddUI : ２つの整数を入力()
+AddUI -> AddCtrl : 足し算要求(整数A, 整数B)
+AddCtrl -> RoboDog : 足し算(整数A, 整数B)
+RoboDog --> AddCtrl : 計算結果()
+AddCtrl --> AddUI : 計算結果を表示()
+
+@enduml

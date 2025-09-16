@@ -1,4 +1,4 @@
-@startuml
+@startuml RoboDog シーケンス図
 
 actor ユーザー as User
 boundary 名前変更機能 as NameChangeUI
