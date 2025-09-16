@@ -1,5 +1,5 @@
 @startuml
-actor       RoboDog as User
+actor       ユーザー as User
 boundary    名前変更機能 as NameChangeUI
 control     名前変更処理 as NameChangeCtrl
 entity      RoboDogデータ as RoboDogData
@@ -7,7 +7,6 @@ entity      RoboDogデータ as RoboDogData
 User -> NameChangeUI : 名前変更を要求
 NameChangeUI -> NameChangeCtrl : 新しい名前を送信
 NameChangeCtrl -> RoboDogData : 名前を更新
-
 RoboDogData --> NameChangeCtrl : 更新結果
 NameChangeCtrl --> NameChangeUI : 結果を返す
 NameChangeUI --> User : 完了通知
