@@ -1,0 +1,12 @@
+@startuml 時刻に応じた挨拶
+left to right direction
+actor "ユーザー" as fc
+rectangle RoboDog {
+  usecase "時刻に応じた挨拶" as UC1
+  usecase "時刻入力画面に時刻を入力 RoboDogに登録" as UC2
+  usecase "" as UC3
+}
+fc -- UC1
+fc -- UC2
+fc -- UC3
+@enduml

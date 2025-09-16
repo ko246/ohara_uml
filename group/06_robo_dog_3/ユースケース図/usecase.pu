@@ -1,10 +1,10 @@
-@startuml 名前変更
+@startuml メニュー項目
 left to right direction
 actor "ユーザー" as fc
-rectangle RoboDog {
-  usecase "名前の変更" as UC1
-  usecase "新しい名前を入力して変更ボタンを押す" as UC2
-  usecase "名前の変更結果を表示する" as UC3
+rectangle Robodog {
+  usecase "名前を変更する" as UC1
+  usecase "時刻に応じた挨拶をする" as UC2
+  usecase "2つの整数の足し算をする" as UC3
 }
 fc -- UC1
 fc -- UC2
