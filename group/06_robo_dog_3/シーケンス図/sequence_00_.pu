@@ -14,22 +14,19 @@ entity RoboDog as RoboDog
 User -> NameChangeUI : 新しい名前を入力()
 NameChangeUI -> NameChangeCtrl : 名前変更要求()
 NameChangeCtrl -> RoboDog : 名前を更新()
-RoboDog --> NameChangeCtrl : 更新結果()
-NameChangeCtrl --> NameChangeUI : 結果を返す()
+RoboDog --> NameChangeCtrl : 変更した名前を表示()
 
 ' 時刻に応じた挨拶をする
 User -> GreetingUI : 時刻を入力()
 GreetingUI -> GreetingCtrl : 挨拶要求()
 GreetingCtrl -> RoboDog : 挨拶メッセージ生成()
-RoboDog --> GreetingCtrl : 挨拶メッセージ()
-GreetingCtrl --> GreetingUI : 挨拶メッセージ()
+RoboDog --> GreetingCtrl : 挨拶メッセージを表示()
 
 ' ２つの整数の足し算をする
 User -> AddUI : ２つの整数を入力()
 AddUI -> AddCtrl : 足し算要求()
 AddCtrl -> RoboDog : 足し算()
-RoboDog --> AddCtrl : 計算結果()
-AddCtrl --> AddUI : 計算結果()
+RoboDog --> AddCtrl : 計算結果を表示()
 
 ====
 

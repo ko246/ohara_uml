@@ -10,9 +10,9 @@ GreetingUI -> GreetingCtrl : 挨拶要求()
 GreetingCtrl -> RoboDog : 9:00 〜 → "おはよう"
 GreetingCtrl -> RoboDog : 12:00 〜 → "こんにちは"
 GreetingCtrl -> RoboDog : 18:00 〜 → "こんばんは"
+GreetingCtrl -> RoboDog : 22:00 〜 8:59 → "おやすみ"
 
 ' 表示画面を作るかは検討中
-RoboDog --> GreetingCtrl : 挨拶メッセージ()
-GreetingCtrl --> GreetingUI : 挨拶メッセージを表示()
+RoboDog --> GreetingCtrl : 挨拶メッセージを表示()
 
 @enduml
