@@ -1,0 +1,7 @@
+@startuml RoboDog ドメインモデル図
+skinparam componentStyle rectangle
+
+' RoboDog
+[RoboDog] o-- [(仮)]
+
+@enduml
