@@ -1,0 +1,18 @@
+@startuml
+
+actor ユーザー as User
+boundary 挨拶機能 as GreetingUI
+control 挨拶処理 as GreetingCtrl
+entity RoboDog as RoboDog
+
+User -> GreetingUI : 時刻を入力()
+GreetingUI -> GreetingCtrl : 挨拶要求()
+GreetingCtrl -> RoboDog : 9:00 〜 → "おはよう"
+GreetingCtrl -> RoboDog : 12:00 〜 → "こんにちは"
+GreetingCtrl -> RoboDog : 18:00 〜 → "こんばんは"
+
+' 表示画面を作るかは検討中
+RoboDog --> GreetingCtrl : 挨拶メッセージ()
+GreetingCtrl --> GreetingUI : 挨拶メッセージを表示()
+
+@enduml

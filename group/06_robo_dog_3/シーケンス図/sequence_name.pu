@@ -1,0 +1,16 @@
+@startuml 名前変更機能 シーケンス図
+
+actor ユーザー as User
+boundary 名前変更機能 as NameChangeUI
+control 名前変更処理 as NameChangeCtrl
+entity RoboDog as RoboDog
+
+User -> NameChangeUI : 新しい名前を入力()
+NameChangeUI -> NameChangeCtrl : 名前変更要求()
+NameChangeCtrl -> RoboDog : 名前を更新()
+
+' 表示画面を作るかは検討中
+RoboDog --> NameChangeCtrl : 更新結果()
+NameChangeCtrl --> NameChangeUI : 結果を返す()
+
+@enduml
