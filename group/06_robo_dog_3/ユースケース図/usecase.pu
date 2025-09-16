@@ -6,7 +6,7 @@ rectangle RoboDog {
   usecase "新しい名前を入力して変更ボタンを押す" as UC2
   usecase "名前の変更結果を表示する" as UC3
 }
-fc --> UC1
-fc --> UC2
-fc --> UC3
+fc -- UC1
+fc -- UC2
+fc -- UC3
 @enduml
