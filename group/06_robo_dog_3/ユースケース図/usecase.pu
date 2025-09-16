@@ -1,6 +1,6 @@
 @startuml 名前変更
 left to right direction
-actor "User" as fc
+actor "ユーザー" as fc
 rectangle RoboDog {
   usecase "名前の変更" as UC1
   usecase "新しい名前を入力して変更ボタンを押す" as UC2
