@@ -9,28 +9,28 @@ control 挨拶処理 as GreetingCtrl
 control 足し算処理 as AddCtrl
 entity RoboDog as RoboDog
 
-== 名前を変更する ==
+== RoboDogの大まかな処理 ==
+' 名前を変更する
 User -> NameChangeUI : 新しい名前を入力()
 NameChangeUI -> NameChangeCtrl : 名前変更要求()
 NameChangeCtrl -> RoboDog : 名前を更新()
 RoboDog --> NameChangeCtrl : 更新結果()
 NameChangeCtrl --> NameChangeUI : 結果を返す()
-NameChangeUI --> User : 完了通知()
 
-== 時刻に応じた挨拶をする ==
+' 時刻に応じた挨拶をする
 User -> GreetingUI : 時刻を入力()
 GreetingUI -> GreetingCtrl : 挨拶要求()
 GreetingCtrl -> RoboDog : 挨拶メッセージ生成()
 RoboDog --> GreetingCtrl : 挨拶メッセージ()
 GreetingCtrl --> GreetingUI : 挨拶メッセージ()
-GreetingUI --> User : 挨拶を表示()
 
-== ２つの整数の足し算をする ==
+' ２つの整数の足し算をする
 User -> AddUI : ２つの整数を入力()
 AddUI -> AddCtrl : 足し算要求()
 AddCtrl -> RoboDog : 足し算()
 RoboDog --> AddCtrl : 計算結果()
 AddCtrl --> AddUI : 計算結果()
-AddUI --> User : 結果を表示()
+
+====
 
 @enduml
