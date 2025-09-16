@@ -6,8 +6,11 @@ control 足し算処理 as AddCtrl
 entity RoboDog as RoboDog
 
 User -> AddUI : ２つの整数を入力()
-AddUI -> AddCtrl : 足し算要求(整数A, 整数B)
-AddCtrl -> RoboDog : 足し算(整数A, 整数B)
+AddUI -> AddCtrl : １つ目の整数を入力()
+AddUI -> AddCtrl : ２つ目の整数を入力()
+AddCtrl -> RoboDog : 足し算の結果()
+
+' 表示画面を作るかは検討中
 RoboDog --> AddCtrl : 計算結果()
 AddCtrl --> AddUI : 計算結果を表示()
 
