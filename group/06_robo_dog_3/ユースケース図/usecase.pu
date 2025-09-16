@@ -1,10 +1,10 @@
-@startuml
+@startuml 名前変更
 left to right direction
 actor "User" as fc
-rectangle Restaurant {
-  usecase "Eat Food" as UC1
-  usecase "Pay for Food" as UC2
-  usecase "Drink" as UC3
+rectangle RoboDog {
+  usecase "名前の変更" as UC1
+  usecase "新しい名前を入力して変更ボタンを押す" as UC2
+  usecase "名前の変更結果を表示する" as UC3
 }
 fc --> UC1
 fc --> UC2
