@@ -4,7 +4,7 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="8WFfe0K-qe_epKbG1VeS-6" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                <mxCell id="8WFfe0K-qe_epKbG1VeS-6" value="訪問者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="10" y="330" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8WFfe0K-qe_epKbG1VeS-7" value="変更" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -80,19 +80,19 @@
                 <mxCell id="8WFfe0K-qe_epKbG1VeS-24" value="登録完了" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="580" y="30" width="120" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="" style="endArrow=classic;html=1;entryX=0.006;entryY=0.519;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.994;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8WFfe0K-qe_epKbG1VeS-9" target="8WFfe0K-qe_epKbG1VeS-23">
+                <mxCell id="2" value="" style="endArrow=classic;html=1;entryX=0.006;entryY=0.519;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.994;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8WFfe0K-qe_epKbG1VeS-9" target="8WFfe0K-qe_epKbG1VeS-23" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="350" y="240" as="sourcePoint"/>
                         <mxPoint x="400" y="190" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.981;exitY=0.647;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8WFfe0K-qe_epKbG1VeS-23" target="8WFfe0K-qe_epKbG1VeS-24">
+                <mxCell id="3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.981;exitY=0.647;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8WFfe0K-qe_epKbG1VeS-23" target="8WFfe0K-qe_epKbG1VeS-24" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="470" y="140" as="sourcePoint"/>
                         <mxPoint x="520" y="90" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="ログイン" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="4" value="ログイン" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="450" y="170" width="70" height="80" as="geometry"/>
                 </mxCell>
             </root>
