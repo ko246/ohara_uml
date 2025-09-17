@@ -1,13 +1,106 @@
-<mxfile host="65bd71144e">
-    <diagram id="T4iM5JNEiDZyO0_GgNCu" name="ページ1">
-        <mxGraphModel dx="736" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="210" width="30" height="60" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram id="T4iM5JNEiDZyO0_GgNCu" name="ページ1">
+    <mxGraphModel dx="1088" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-2" value="ログイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-3" value="ユーザーID&lt;div&gt;パスワード&lt;/div&gt;&lt;div&gt;入力&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="185" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-5" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;エラーメッセージ表示&lt;/span&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="380" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-7" value="メニュー画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-9" value="パスワードリセット画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="545" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-10" value="&lt;div&gt;メールアドレス入力&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.098;entryY=0.466;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2" target="GlTGsxxahrGcEjfsaQrb-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="68.48" y="232.0399999999999" as="sourcePoint" />
+            <mxPoint x="230.00000000000009" y="247.95999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="138.48" y="242.04000000000002" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.082;exitY=0.778;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GlTGsxxahrGcEjfsaQrb-34" target="GlTGsxxahrGcEjfsaQrb-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="299.9999999999999" as="sourcePoint" />
+            <mxPoint x="495.10000000000014" y="232.64" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.008;entryY=0.634;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.97;exitY=0.496;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GlTGsxxahrGcEjfsaQrb-2" target="GlTGsxxahrGcEjfsaQrb-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="349.9999999999999" as="sourcePoint" />
+            <mxPoint x="251.5200000000001" y="365.91999999999996" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.703;entryY=0.194;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GlTGsxxahrGcEjfsaQrb-34" target="GlTGsxxahrGcEjfsaQrb-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.792;exitY=0.979;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.765;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GlTGsxxahrGcEjfsaQrb-5" target="GlTGsxxahrGcEjfsaQrb-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="370" as="sourcePoint" />
+            <mxPoint x="510" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.606;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.011;entryY=0.555;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GlTGsxxahrGcEjfsaQrb-9" target="GlTGsxxahrGcEjfsaQrb-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="400" as="sourcePoint" />
+            <mxPoint x="590" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-25" value="ユーザーIDもしくは&lt;br&gt;パスワードが間違い" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="360" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-27" value="ユーザーID、パスワードを&lt;br&gt;忘れた方のボタン" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="470" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-29" value="認証" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="225" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-30" value="&lt;div&gt;メール&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="565" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.65;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.129;exitY=0.847;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GlTGsxxahrGcEjfsaQrb-10" target="GlTGsxxahrGcEjfsaQrb-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="400" as="sourcePoint" />
+            <mxPoint x="510" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-33" value="パスワードリセットメールを送信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="627" y="525" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.004;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.002;exitY=0.503;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GlTGsxxahrGcEjfsaQrb-3" target="GlTGsxxahrGcEjfsaQrb-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="230" as="sourcePoint" />
+            <mxPoint x="700" y="233" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-34" value="訪問者データ" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="235" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GlTGsxxahrGcEjfsaQrb-37" value="確認完了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="308" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>

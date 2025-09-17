@@ -1,11 +1,29 @@
 <mxfile host="65bd71144e">
     <diagram id="4X-gl8I2u3MvCSH8YrXb" name="ページ1">
-        <mxGraphModel dx="736" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="312" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="210" width="30" height="60" as="geometry"/>
+                <mxCell id="2" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="150" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Control Object" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="150" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Control Object" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="344" y="300" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Control Object" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="160" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="ログアウト完了画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="290" width="140" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="ログアウト画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="150" width="110" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Entity Object" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="160" width="80" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
