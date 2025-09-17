@@ -1,0 +1,14 @@
+@startuml メニュー項目
+left to right direction
+actor "ユーザー" as fc
+rectangle 訪問者システム {
+  usecase "新規登録" as UC1
+  usecase "登録情報を参照する" as UC2
+  usecase "登録情報を更新する" as UC3
+  usecase "登録情報を削除する" as UC4
+}
+fc -- UC1
+fc -- UC2
+fc -- UC3
+fc -- UC4
+@enduml
