@@ -1,5 +1,6 @@
 @startuml 訪問者システム
 skinparam componentStyle rectangle
+
 ' 訪問者
 [訪問者] o-- [ユーザーID]
 [訪問者] o-- [パスワード]
