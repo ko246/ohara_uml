@@ -1,6 +1,7 @@
 @startuml メニュー項目
 left to right direction
-actor "事務職員" as fc
+actor "事務職員" as ac1
+' actor "会員" as ac2
 rectangle  大原情報科学大学・図書館システム{
   usecase "「貸し出し予約」の受付" as UC1
   usecase "貸し出し" as UC2
@@ -9,10 +10,11 @@ rectangle  大原情報科学大学・図書館システム{
   usecase "閲覧" as UC5
   usecase "メール送信" as UC6
 }
-fc -- UC1
-fc -- UC2
-fc -- UC3
-fc -- UC4
-fc -- UC5
-fc -- UC6
+' ac2 -- UC0
+ac1 -- UC1
+ac1 -- UC2
+ac1 -- UC3
+ac1 -- UC4
+ac1 -- UC5
+ac1 -- UC6
 @enduml
