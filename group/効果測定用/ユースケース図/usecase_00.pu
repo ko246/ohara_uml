@@ -10,8 +10,9 @@ rectangle  大原情報科学大学・図書館システム as system {
 }
 UC2 --> UC1
 UC2 --> UC4
-ac1 -- UC2
 ac1 -- UC3
+ac1 -- UC2
+
 
 
 @enduml
