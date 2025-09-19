@@ -2,10 +2,10 @@
 left to right direction
 actor "事務職員" as ac1
 rectangle  大原情報科学大学・図書館システム as system {
-  usecase "「貸し出し予約」の受付" as UC1
-  usecase "貸し出し・返却" as UC2
-  usecase "記録・閲覧" as UC3
-  usecase "メール送信" as UC4
+  usecase "貸し出し・返却・貸し出し予約" as UC1
+  usecase "記録・閲覧" as UC2
+  usecase "メール送信" as UC3
+  usecase "" as UC4
 }
 ac1 -- UC1
 ac1 -- UC2
