@@ -1,0 +1,18 @@
+@startuml メニュー項目
+left to right direction
+actor "事務職員" as fc
+rectangle  大原情報科学大学・図書館システム{
+  usecase "「貸し出し予約」の受付" as UC1
+  usecase "貸し出し" as UC2
+  usecase "返却" as UC3
+  usecase "記録" as UC4
+  usecase "閲覧" as UC5
+  usecase "メール送信" as UC6
+}
+fc -- UC1
+fc -- UC2
+fc -- UC3
+fc -- UC4
+fc -- UC5
+fc -- UC6
+@enduml
