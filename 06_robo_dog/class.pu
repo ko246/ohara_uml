@@ -3,23 +3,28 @@ skinparam classAttributeIconSize 0
 hide circle
 
 class RoboDog {
-    -名前
-    -1つ目の整数
-    -2つ目の整数
-    -時刻
-    -挨拶
-    -足し算結果
-    -朝の挨拶
-    -昼の挨拶
-    -夜の挨拶
+    -myName: String
+    ' datetime? bigInt?=UNIXTIME
+    ' UNIXTIMEは1970年1月1日0時0分0秒からの経過秒数
+    -myTime: int
+    -goodMorning: String
+    -goodAfternoon: String
+    -goodNight: String
+    -firstValue: int
+    -secondValue: int
+    ' 教科書にはない
+    -Result: int
 
-    +getMyName()
-    +setMyName()
-    +setNewTime()
-    +getMyGreeting()
-    +2つの整数を取得()
-    +足し算の登録()
-    +足し算結果の取得()
+    +getMyName(): String
+    +setMyName(): int
+    +setNewTime(): void
+    +getMyGreeting(): String
+    +setFirstValue(): int
+    +setSecondValue(): int
+    +getAddition(): int
+    ' 教科書にはない
+    +setValues: int
+    +setAddResult(): int
 
 }
 @enduml
