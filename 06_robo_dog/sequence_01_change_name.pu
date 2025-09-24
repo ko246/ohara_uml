@@ -8,7 +8,13 @@ actor ユーザー as A
 boundary "RoboDog_menu.htm" as B1
 boundary 名前の変更画面 as B2
 boundary 名前の変更結果画面 as B3
-control "ChangeMyNameData.jsp" as C1
+' →フォルダ(ディレクトリ)名で差別化
+' views/ChangeMyName.jsp
+' controllers/ChangeMyNameData.jsp
+' コーディングルール.md
+' →なんのframeworkをつかうのか？
+
+control "ChangeMyNameData.jsp" as C1 
 control "ChengeMyName.jsp" as C2
 entity "Robodog.java" as E
 

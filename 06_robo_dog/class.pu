@@ -1,5 +1,7 @@
-@startuml
+@startuml RoboDogクラス図
 skinparam classAttributeIconSize 0
+hide circle
+
 class RoboDog {
     -名前
     -1つ目の整数
@@ -13,8 +15,8 @@ class RoboDog {
 
     +getMyName()
     +setMyName()
-    +時刻の設定()
-    +時刻に応じた挨拶の取得()
+    +setNewTime()
+    +getMyGreeting()
     +2つの整数を取得()
     +足し算の登録()
     +足し算結果の取得()
