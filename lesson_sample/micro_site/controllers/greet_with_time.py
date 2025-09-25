@@ -6,4 +6,5 @@ def greet_with_time():
     set_new_time()
     greeting = get_my_greeting()
 
+    # HTMLのテンプレートを使って表示用のHTMLを生成して返す
     return render_template("boundaries/greeting.html", greeting=greeting)

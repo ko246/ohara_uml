@@ -44,3 +44,21 @@ def get_my_greeting() -> str:
             return data.get("good_night")
     except (json.JSONDecodeError, OSError):
         return ""
+    
+def set_add_values(value1: int, value2: int):
+    """2つの数値を足し算して返す"""
+
+    with open(ROBODOG_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    data['add_result'] = value1 + value2
+    with open(ROBODOG_FILE, 'w', encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def get_add_result() -> int:
+    """JSONから足し算の結果を読み出す。なければ0"""
+    try:
+        with open(ROBODOG_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data.get("add_result", 0)
+    except (json.JSONDecodeError, OSError):
+        return 0
