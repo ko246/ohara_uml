@@ -45,22 +45,25 @@ def get_my_greeting() -> str:
     except (json.JSONDecodeError, OSError):
         return ""
     
-def set_First_values():
+def set_value1(value1) -> None:
     """JSONに足し算の値を保存"""
     with open(ROBODOG_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
-    data['first_value'] = first_value
+    data['first_value'] = value1
     with open(ROBODOG_FILE, 'w', encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def set_Second_values():
+def set_value2(value2):
+    """JSONに足し算の値を保存"""
+    with open(ROBODOG_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    data['second_value'] = value2
+    with open(ROBODOG_FILE, 'w', encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 
 def get_add_result() -> int:
     """JSONから足し算の結果を読み出す。なければ0"""
-    try:
-        with open(ROBODOG_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return data.get("add_result", 0)
-    except (json.JSONDecodeError, OSError):
-        return 0
+    with open(ROBODOG_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("add_result", 0)
