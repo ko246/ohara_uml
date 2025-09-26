@@ -1,0 +1,30 @@
+@startuml メニュー項目
+left to right direction
+actor "事務職員" as ac1
+
+' 貸し出し予約やメール送信はすべて貸し出し・返却から行う
+rectangle  修正案① as system1 {
+  usecase "貸し出し・返却" as s1_1
+  usecase "記録・閲覧" as s1_2
+  s1_1 -- ac1
+  s1_2 -- ac1
+
+}
+
+' もしくは、貸し出しと返却それぞれユースケースを分けて、
+' 貸し出しの中に貸し出し予約、返却の中にメール送信を入れる方法もある
+rectangle  修正案② as system {
+  usecase "貸し出し" as UC1
+  usecase "返却" as UC2
+  usecase "記録・閲覧" as UC3
+
+
+ac1 -- UC1
+ac1 -- UC2
+ac1 -- UC3
+
+}
+
+
+
+@enduml

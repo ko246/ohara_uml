@@ -1,17 +1,30 @@
-@startuml class
+@startuml RoboDogクラス図
 skinparam classAttributeIconSize 0
+hide circle
+
 class RoboDog {
-    '属性
-    -名前 
-    -時刻
-    -挨拶
-    -2つの整数
-    -足し算結果
+    -myName: String
+    ' datetime? bigInt?=UNIXTIME
+    ' UNIXTIMEは1970年1月1日0時0分0秒からの経過秒数
+    -myTime: int
+    -goodMorning: String
+    -goodAfternoon: String
+    -goodNight: String
+    -firstValue: int
+    -secondValue: int
+    ' 教科書にはない
+    -Result: int
 
-    '操作
-    +名前を変更する()
-    +時刻に応じた挨拶をする()
-    +2つの整数の足し算をする()
+    +getMyName(): String
+    +setMyName(): int
+    +setNewTime(): void
+    +getMyGreeting(): String
+    +setFirstValue(): int
+    +setSecondValue(): int
+    +getAddition(): int
+    ' 教科書にはない
+    +setValues: int
+    +setAddResult(): int
+
 }
-
 @enduml
