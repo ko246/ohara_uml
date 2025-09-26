@@ -1,0 +1,10 @@
+@startuml Robodogドメインモデル図
+skinparam componentStyle rectangle
+
+' Robodog
+[注文管理システム] -- [１]
+[Web販売システム] -- [２]
+[顧客] -- [３]
+[管理者] -- [４]
+
+@enduml
