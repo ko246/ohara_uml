@@ -3,14 +3,14 @@ left to right direction
 
 actor 管理者
 
-rectangle システム {
+rectangle 注文管理システム {
 
   usecase "ログインする" as Admin_Login
   usecase "ログアウトする" as Admin_Logout
   usecase "注文履歴を確認する" as Admin_CheckHistory
   usecase "クレジットカード会社に返金処理をする" as Admin_Refund
   usecase "在庫を確認する" as Admin_CheckStock
-  usecase "商品を回収する" as Admin_Collect
+
 
 }
 
@@ -19,6 +19,5 @@ rectangle システム {
 管理者 --> Admin_CheckHistory
 管理者 --> Admin_Refund
 管理者 --> Admin_CheckStock
-管理者 --> Admin_Collect
 
 @enduml
