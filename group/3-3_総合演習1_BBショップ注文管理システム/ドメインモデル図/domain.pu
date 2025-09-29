@@ -17,7 +17,7 @@ skinparam componentStyle rectangle
 
 [商品] o-- [商品ID]
 [商品] o-- [商品名]
-[商品] o-- [定価価格]
+[商品] o-- [本体価格]
 [商品] o-- [在庫数量]
 
 [商品] -- [顧客]
@@ -26,6 +26,8 @@ skinparam componentStyle rectangle
 
 [管理者] o-- [管理者ID]
 [管理者] o-- [管理者パスワード]
-
+[管理者] o-- [倉庫業者]
+[管理者] o-- [カスタマーサポーター]
+[管理者] o-- [システム管理者]
 
 @enduml
