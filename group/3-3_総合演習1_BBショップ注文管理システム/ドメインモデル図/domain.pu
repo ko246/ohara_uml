@@ -11,8 +11,6 @@ skinparam componentStyle rectangle
 
 [注文] o-- [注文ID]
 [注文] o-- [注文日]
-[注文] o-- [商品ID]
-[注文] o-- [商品名]
 [注文] o-- [税込金額]
 [注文] o-- [数量]
 [注文] o-- [注文状況]
@@ -20,7 +18,6 @@ skinparam componentStyle rectangle
 [商品] o-- [商品ID]
 [商品] o-- [商品名]
 [商品] o-- [定価価格]
-[商品] o-- [税込金額]
 [商品] o-- [在庫数量]
 
 [商品] -- [顧客]
