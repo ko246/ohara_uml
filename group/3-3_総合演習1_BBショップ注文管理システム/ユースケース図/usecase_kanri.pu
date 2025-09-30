@@ -3,7 +3,7 @@ left to right direction
 
 ' アクター定義
 actor システム管理者
-actor 配送業者
+actor 倉庫業者
 actor カスタマーサポーター
 
 rectangle 注文管理システム {
@@ -11,14 +11,16 @@ rectangle 注文管理システム {
   usecase "ログアウト" as UC_Logout
   usecase "注文履歴確認" as UC_CheckHistory
   usecase "在庫確認" as UC_CheckStock
+  usecase "アカウント変更" as UC_UpdateAccount
+  usecase "アカウント削除" as UC_DeleteAccount
   usecase "返金処理（クレジットカード会社）" as UC_Refund
 }
 
 ' システム管理者のユースケース
 システム管理者 --> UC_Login
 システム管理者 --> UC_Logout
-システム管理者 --> UC_CheckHistory
-システム管理者 --> UC_CheckStock
+システム管理者 --> UC_UpdateAccount
+システム管理者 --> UC_DeleteAccount
 
 ' カスタマーサポーターのユースケース
 カスタマーサポーター --> UC_Login
@@ -26,8 +28,8 @@ rectangle 注文管理システム {
 カスタマーサポーター --> UC_Refund
 
 ' 配送業者のユースケース
-配送業者 --> UC_Login
-配送業者 --> UC_Logout
-配送業者 --> UC_CheckStock
+倉庫業者 --> UC_Login
+倉庫業者 --> UC_Logout
+倉庫業者 --> UC_CheckStock
 
 @enduml
