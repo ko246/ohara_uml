@@ -1,21 +1,18 @@
 @startuml BBショップシステム_クラス図
 
 skinparam classAttributeIconSize 0
-class システム管理者 {
+class アカウント管理者 {
     '属性
     -管理者ID
     -管理者パスワード
-    -注文ID
-    -注文日
-    -数量
-    -商品ID
-    -商品名
+    -顧客ID
+    -顧客パスワード
 
     '操作
     +ログインする()
     +ログアウトする()
-    +注文履歴を確認する()
-    +在庫を確認する()
+    +アカウントを変更する()
+    +アカウントを削除する()
 }
 
 skinparam classAttributeIconSize 0
