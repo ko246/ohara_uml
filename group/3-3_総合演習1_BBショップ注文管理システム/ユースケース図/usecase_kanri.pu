@@ -2,7 +2,7 @@
 left to right direction
 
 ' アクター定義
-actor システム管理者
+actor アカウント管理者
 actor 倉庫業者
 actor カスタマーサポーター
 
@@ -17,10 +17,10 @@ rectangle 注文管理システム {
 }
 
 ' システム管理者のユースケース
-システム管理者 --> UC_Login
-システム管理者 --> UC_Logout
-システム管理者 --> UC_UpdateAccount
-システム管理者 --> UC_DeleteAccount
+アカウント管理者 --> UC_Login
+アカウント管理者 --> UC_Logout
+アカウント管理者 --> UC_UpdateAccount
+アカウント管理者 --> UC_DeleteAccount
 
 ' カスタマーサポーターのユースケース
 カスタマーサポーター --> UC_Login
