@@ -11,9 +11,9 @@ rectangle 注文管理システム {
   usecase "ログアウト" as UC_Logout
   usecase "注文履歴確認" as UC_CheckHistory
   usecase "在庫確認" as UC_CheckStock
+  usecase "返金処理（クレジットカード会社）" as UC_Refund
   usecase "アカウント変更" as UC_UpdateAccount
   usecase "アカウント削除" as UC_DeleteAccount
-  usecase "返金処理（クレジットカード会社）" as UC_Refund
 }
 
 ' システム管理者のユースケース
