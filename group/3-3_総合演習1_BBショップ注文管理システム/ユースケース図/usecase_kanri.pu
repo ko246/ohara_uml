@@ -12,6 +12,7 @@ rectangle 注文管理システム {
   usecase "注文履歴確認" as UC_CheckHistory
   usecase "在庫確認" as UC_CheckStock
   usecase "返金処理（クレジットカード会社）" as UC_Refund
+  usecase "お問い合わせ対応" as UC_HandleInquiry
   usecase "アカウント変更" as UC_UpdateAccount
   usecase "アカウント削除" as UC_DeleteAccount
 }
@@ -27,10 +28,12 @@ rectangle 注文管理システム {
 カスタマーサポーター --> UC_Logout
 カスタマーサポーター --> UC_CheckHistory
 カスタマーサポーター --> UC_Refund
+カスタマーサポーター --> UC_HandleInquiry
 
 ' 配送業者のユースケース
 倉庫業者 --> UC_Login
 倉庫業者 --> UC_Logout
 倉庫業者 --> UC_CheckStock
+倉庫業者 --> UC_CheckHistory
 
 @enduml
