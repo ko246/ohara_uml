@@ -12,6 +12,7 @@ rectangle Web販売システム {
 
   package "ログイン必須" {
     usecase "カートに追加する" as UC_AddToCart
+    usecase "カートを削除する" as UC_DeleteCart
     usecase "購入する" as UC_Order
     usecase "注文をキャンセルする" as UC_Cancel
     usecase "ログアウトする" as UC_Logout
@@ -22,6 +23,8 @@ rectangle Web販売システム {
 顧客 --> UC_Browse
 顧客 --> UC_Login
 顧客 --> UC_Logout
+顧客 --> UC_AddToCart
+顧客 --> UC_DeleteCart
 顧客 --> UC_Order
 顧客 --> UC_Cancel
 顧客 --> UC_Inquiry
