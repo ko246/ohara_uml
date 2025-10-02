@@ -10,11 +10,11 @@
                 <mxCell id="3" value="メニュー画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="210" y="210" width="100" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="IDとパスワードを入力" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="200" width="70" height="80" as="geometry"/>
+                <mxCell id="4" value="「ログアウト」&lt;div&gt;ボタンを押す&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="200" width="90" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="管理者データ" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="640" y="290" width="80" height="80" as="geometry"/>
+                <mxCell id="5" value="" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="200" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.02;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
@@ -22,18 +22,27 @@
                         <mxPoint x="140" y="230" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=1;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="4" edge="1">
+                <mxCell id="7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.96;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.052;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="4" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="270" y="230" as="sourcePoint"/>
                         <mxPoint x="430" y="230" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.99;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.133;entryY=0.258;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="5" edge="1">
+                <mxCell id="8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.993;exitY=0.508;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="5" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="540" y="230" as="sourcePoint"/>
                         <mxPoint x="700" y="230" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.081;exitY=0.775;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;entryX=0.967;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4" target="3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="316" y="240" as="sourcePoint"/>
+                        <mxPoint x="311" y="265" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="エラーが発生" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="268" width="100" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
