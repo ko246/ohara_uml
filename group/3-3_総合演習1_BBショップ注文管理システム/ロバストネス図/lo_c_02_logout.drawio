@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.4">
+  <diagram name="ページ1" id="SFMOJvE3ZJm7FPMLd5KX">
+    <mxGraphModel dx="1017" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s8_s2cy3kdPvnvvf6H2q-2" value="客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8_s2cy3kdPvnvvf6H2q-3" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="150" as="sourcePoint" />
+            <mxPoint x="390" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8_s2cy3kdPvnvvf6H2q-4" value="メニュー画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="110" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s8_s2cy3kdPvnvvf6H2q-5" value="ログアウトボタンを押す" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="110" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s8_s2cy3kdPvnvvf6H2q-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.014;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.017;exitY=0.608;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s8_s2cy3kdPvnvvf6H2q-4" target="s8_s2cy3kdPvnvvf6H2q-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="535" y="175" as="sourcePoint" />
+            <mxPoint x="585" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
