@@ -17,22 +17,13 @@
                     <mxGeometry x="650" y="390" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="カート追加完了" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="435" y="490" width="70" height="80" as="geometry"/>
+                    <mxGeometry x="435" y="530" width="70" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="" style="endArrow=classic;html=1;exitX=0.993;exitY=0.433;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.073;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="4">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="490" y="500" as="sourcePoint"/>
                         <mxPoint x="540" y="450" as="targetPoint"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="9" value="" style="endArrow=classic;html=1;exitX=0.093;exitY=0.792;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.927;entryY=0.808;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="4" target="3">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="329" y="345" as="sourcePoint"/>
-                        <mxPoint x="467" y="343" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="11" value="完売" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="385" y="370" width="50" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="" style="endArrow=classic;html=1;exitX=0.973;exitY=0.767;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="5">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -60,6 +51,21 @@
                 </mxCell>
                 <mxCell id="16" value="カート画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="160" y="520" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="完売" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="390" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="在庫あり" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="288" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="在庫なし" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="408" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.927;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.013;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="18">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="470" y="490" as="sourcePoint"/>
+                        <mxPoint x="520" y="440" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
