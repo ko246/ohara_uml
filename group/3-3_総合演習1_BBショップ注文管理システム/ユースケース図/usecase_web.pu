@@ -8,6 +8,7 @@ rectangle Web販売システム {
   package "ログイン不要" {
     usecase "商品を閲覧する" as UC_Browse
     usecase "ログインする" as UC_Login
+    usecase "新規登録する" as UC_Register
   }
 
   package "ログイン必須" {
@@ -28,5 +29,6 @@ rectangle Web販売システム {
 顧客 --> UC_Order
 顧客 --> UC_Cancel
 顧客 --> UC_Inquiry
+顧客 --> UC_Register
 
 @enduml
