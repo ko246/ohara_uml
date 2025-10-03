@@ -12,7 +12,7 @@ rectangle 注文管理システム {
   usecase "新規登録" as UC_Register
   usecase "注文履歴確認" as UC_CheckHistory
   usecase "在庫確認" as UC_CheckStock
-  usecase "返金処理（クレジットカード会社）" as UC_Refund
+  usecase "返金処理" as UC_Refund
   usecase "お問い合わせ対応" as UC_HandleInquiry
   usecase "アカウント変更" as UC_UpdateAccount
   usecase "アカウント停止" as UC_DeleteAccount
