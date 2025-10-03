@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
+  <diagram name="ページ1" id="Fsn-O2sSGajTOJezaNWq">
+    <mxGraphModel dx="1017" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U3WZIMv8DFLY_DFqYSs4-1" target="U3WZIMv8DFLY_DFqYSs4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-1" value="&lt;br&gt;&lt;div&gt;アカウント管理者&lt;/div&gt;&lt;div&gt;カスタマーサポーター&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="344" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-2" value="メニュー画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="264" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-4" value="アカウント停止機能を選択" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.024;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U3WZIMv8DFLY_DFqYSs4-2" target="U3WZIMv8DFLY_DFqYSs4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U3WZIMv8DFLY_DFqYSs4-6" target="U3WZIMv8DFLY_DFqYSs4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-6" value="アカウント停止機能画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="270" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.043;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U3WZIMv8DFLY_DFqYSs4-4" target="U3WZIMv8DFLY_DFqYSs4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U3WZIMv8DFLY_DFqYSs4-8" target="U3WZIMv8DFLY_DFqYSs4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-8" value="停止するアカウントを選択し、停止ボタンを押す" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="440" width="95" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.523;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U3WZIMv8DFLY_DFqYSs4-8" target="U3WZIMv8DFLY_DFqYSs4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-11" value="停止するアカウントが存在しない場合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U3WZIMv8DFLY_DFqYSs4-12" target="U3WZIMv8DFLY_DFqYSs4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-12" value="アカウントを停止する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="453" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-14" value="停止完了画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="264" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U3WZIMv8DFLY_DFqYSs4-17" target="U3WZIMv8DFLY_DFqYSs4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-17" value="元の画面に戻るを選択" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="264" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.948;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U3WZIMv8DFLY_DFqYSs4-14" target="U3WZIMv8DFLY_DFqYSs4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-20" value="アカウントが停止されたことを保存" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3WZIMv8DFLY_DFqYSs4-24" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.586;exitY=0.204;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.443;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U3WZIMv8DFLY_DFqYSs4-12" target="U3WZIMv8DFLY_DFqYSs4-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="640" y="440" as="sourcePoint" />
+            <mxPoint x="800" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
