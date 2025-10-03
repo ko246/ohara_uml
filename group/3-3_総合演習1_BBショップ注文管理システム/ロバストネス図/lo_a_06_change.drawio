@@ -24,7 +24,7 @@
                 <mxCell id="10VEGs-uskNU2SIhcTbT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="10VEGs-uskNU2SIhcTbT-13" target="10VEGs-uskNU2SIhcTbT-18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10VEGs-uskNU2SIhcTbT-13" target="8">
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.476;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="10VEGs-uskNU2SIhcTbT-13" target="8">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="10VEGs-uskNU2SIhcTbT-13" value="変更したい情報を入力" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
