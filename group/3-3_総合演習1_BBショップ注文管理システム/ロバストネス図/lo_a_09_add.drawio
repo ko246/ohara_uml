@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
+  <diagram name="ページ1" id="slv_iZWl1O88OAVnkPEn">
+    <mxGraphModel dx="1017" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-1" value="倉庫業者&lt;div&gt;アカウント管理者&lt;/div&gt;&lt;div&gt;カスタマーサポーター&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-6" value="ログイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ig6S7sZ2S21xH7e0NYOj-1" target="Ig6S7sZ2S21xH7e0NYOj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-8" value="新規登録ボタンを押す" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ig6S7sZ2S21xH7e0NYOj-6" target="Ig6S7sZ2S21xH7e0NYOj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ig6S7sZ2S21xH7e0NYOj-10" target="Ig6S7sZ2S21xH7e0NYOj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-10" value="新規登録画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="240" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ig6S7sZ2S21xH7e0NYOj-8" target="Ig6S7sZ2S21xH7e0NYOj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-12" value="ログイン画面を表示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="265" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-13" value="必要な情報を入力" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="414" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-15" value="システムが認証" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="420" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.043;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ig6S7sZ2S21xH7e0NYOj-13" target="Ig6S7sZ2S21xH7e0NYOj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-17" value="エラーメッセージ表示画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="530" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.51;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.01;entryY=0.458;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ig6S7sZ2S21xH7e0NYOj-15" target="Ig6S7sZ2S21xH7e0NYOj-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="510" as="sourcePoint" />
+            <mxPoint x="610" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.97;exitY=0.358;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.443;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ig6S7sZ2S21xH7e0NYOj-17" target="Ig6S7sZ2S21xH7e0NYOj-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="510" as="sourcePoint" />
+            <mxPoint x="610" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-23" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.595;exitY=0.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ig6S7sZ2S21xH7e0NYOj-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="370" as="sourcePoint" />
+            <mxPoint x="355" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-24" value="認証失敗時" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-25" value="入力前に戻る" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="535" y="530" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-27" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.595;exitY=0.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ig6S7sZ2S21xH7e0NYOj-15" target="Ig6S7sZ2S21xH7e0NYOj-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="347" y="425" as="sourcePoint" />
+            <mxPoint x="355" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ig6S7sZ2S21xH7e0NYOj-26" value="最初の画面に戻る" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=5;" vertex="1" parent="1">
+          <mxGeometry x="280" y="368" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

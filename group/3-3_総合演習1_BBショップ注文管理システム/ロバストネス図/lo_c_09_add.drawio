@@ -1,73 +1,85 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
-  <diagram name="ページ1" id="Iiadnb6JtXkahdf0rA4e">
-    <mxGraphModel dx="1130" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-1" value="顧客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="70" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-5" value="ログイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="60" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-1" target="0mBlLdJDM4SLZqd7p3Qh-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="500" y="240" as="sourcePoint" />
-            <mxPoint x="660" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-7" value="新規登録ボタンを押す" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="60" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.016;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-5" target="0mBlLdJDM4SLZqd7p3Qh-7">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="410" y="220" as="sourcePoint" />
-            <mxPoint x="570" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-9" value="新規登録画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="60" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.035;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-7" target="0mBlLdJDM4SLZqd7p3Qh-9">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="450" y="290" as="sourcePoint" />
-            <mxPoint x="610" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-11" value="新規登録者の情報を入力後送信" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="210" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.513;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.857;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-9" target="0mBlLdJDM4SLZqd7p3Qh-11">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="450" y="290" as="sourcePoint" />
-            <mxPoint x="610" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.005;exitY=0.376;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.622;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-11" target="0mBlLdJDM4SLZqd7p3Qh-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="450" y="290" as="sourcePoint" />
-            <mxPoint x="610" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-14" value="入力ミスがある場合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=35;" vertex="1" parent="1">
-          <mxGeometry x="325" y="160" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-15" value="システムが認証" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="280" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.175;exitY=0.858;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-11" target="0mBlLdJDM4SLZqd7p3Qh-15">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="560" y="290" as="sourcePoint" />
-            <mxPoint x="720" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0mBlLdJDM4SLZqd7p3Qh-17" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.254;exitY=0.168;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.326;entryY=0.927;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-15" target="0mBlLdJDM4SLZqd7p3Qh-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="560" y="290" as="sourcePoint" />
-            <mxPoint x="720" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="ページ1" id="Iiadnb6JtXkahdf0rA4e">
+        <mxGraphModel dx="816" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-1" value="顧客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="70" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-5" value="ログイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="60" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-1" target="0mBlLdJDM4SLZqd7p3Qh-5" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="500" y="240" as="sourcePoint"/>
+                        <mxPoint x="660" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-7" value="新規登録ボタンを押す" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="60" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.016;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-5" target="0mBlLdJDM4SLZqd7p3Qh-7" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="410" y="220" as="sourcePoint"/>
+                        <mxPoint x="570" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-9" value="新規登録画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="60" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.035;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-7" target="0mBlLdJDM4SLZqd7p3Qh-9" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="450" y="290" as="sourcePoint"/>
+                        <mxPoint x="610" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-11" value="新規登録者の情報を入力後送信" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="210" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.513;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.857;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-9" target="0mBlLdJDM4SLZqd7p3Qh-11" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="450" y="290" as="sourcePoint"/>
+                        <mxPoint x="610" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.005;exitY=0.376;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.622;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-11" target="0mBlLdJDM4SLZqd7p3Qh-5" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="450" y="290" as="sourcePoint"/>
+                        <mxPoint x="610" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-14" value="入力ミスがある場合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=35;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="160" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-15" value="システムが認証" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="280" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.175;exitY=0.858;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0mBlLdJDM4SLZqd7p3Qh-11" target="0mBlLdJDM4SLZqd7p3Qh-15" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="560" y="290" as="sourcePoint"/>
+                        <mxPoint x="720" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="0mBlLdJDM4SLZqd7p3Qh-17" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.254;exitY=0.168;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.326;entryY=0.927;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="322.78" y="290.00000000000006" as="sourcePoint"/>
+                        <mxPoint x="297.5999999999999" y="130.71999999999997" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="システムに渡す" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-15;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="308" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.254;exitY=0.168;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.326;entryY=0.927;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="322.78" y="290.00000000000006" as="sourcePoint"/>
+                        <mxPoint x="297.5999999999999" y="130.71999999999997" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="認証終了後自動で戻る" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="200" width="140" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>

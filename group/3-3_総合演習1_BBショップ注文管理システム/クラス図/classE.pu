@@ -8,27 +8,27 @@ hide empty members
 ' ====================================================
 
 class 管理者 {
-    -権能ID
-    -社員ID
-    -管理者パスワード
-    +ログインする()
-    +ログアウトする()
+    -SystemID
+    -employeeID
+    -AddPassword
+    +ALogIn()
+    +ALogOut()
 }
 
 class アカウント管理者 {
-    +アカウントを変更する()
-    +アカウントを停止する()
+    +ChangeAccount()
+    +StopAccount()
 }
 
 class 倉庫業者 {
-    +在庫を確認する()
-    +注文履歴を確認する()
+    +CheckStock()
+    +CheckOderHistory()
 }
 
 class カスタムマーサポーター {
-    +クレジットカード会社に返金処理を依頼する()
-    +注文履歴を確認する()
-    +お問い合わせに対応する()
+    +RequestarefundCreditCardCompanies()
+    +CheckOderHistory()
+    +CorrespondenceInquiry()
 }
 
 class 顧客 {
