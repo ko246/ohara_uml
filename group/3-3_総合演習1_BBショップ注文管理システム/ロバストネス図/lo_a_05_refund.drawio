@@ -1,0 +1,75 @@
+<mxfile host="65bd71144e">
+    <diagram name="ページ1" id="gWr4JtAHWeSnUZ1lcRqY">
+        <mxGraphModel dx="1985" dy="2073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="AbAq9ewkS6oZXFf50iRQ-1" target="AbAq9ewkS6oZXFf50iRQ-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-999.9999999999998" y="-1560.4615384615386" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-1" value="倉庫業者&lt;div&gt;アカウント管理者&lt;/div&gt;&lt;div&gt;カスタマーサポーター&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-1120" y="-1580" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-3" value="注文履歴画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-1049.9999999999998" y="-1600.4615384615386" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AbAq9ewkS6oZXFf50iRQ-3" target="AbAq9ewkS6oZXFf50iRQ-4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-809.9999999999998" y="-1560.4615384615386" as="targetPoint"/>
+                        <mxPoint x="-950" y="-1560" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AbAq9ewkS6oZXFf50iRQ-4" target="AbAq9ewkS6oZXFf50iRQ-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-670" y="-1560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-4" value="返金対象者の選択" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-830" y="-1600" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AbAq9ewkS6oZXFf50iRQ-8" target="AbAq9ewkS6oZXFf50iRQ-10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-550" y="-1560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-8" value="返金処理画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-720" y="-1600" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AbAq9ewkS6oZXFf50iRQ-10" target="AbAq9ewkS6oZXFf50iRQ-13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-789.9999999999998" y="-1380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-10" value="返金処理の実行" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-680" y="-1420" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-13" value="エラーメッセージが表示された画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-839.9999999999998" y="-1420" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.568;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.301;entryY=0.847;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AbAq9ewkS6oZXFf50iRQ-13" target="AbAq9ewkS6oZXFf50iRQ-8" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-550" y="-1470" as="sourcePoint"/>
+                        <mxPoint x="-390" y="-1470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1.031;exitY=0.494;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="AbAq9ewkS6oZXFf50iRQ-10" target="AbAq9ewkS6oZXFf50iRQ-16" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-550" y="-1470" as="sourcePoint"/>
+                        <mxPoint x="-540" y="-1380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-16" value="返金依頼を送信" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-575" y="-1420" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-17" value="返金依頼完了画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-575" y="-1590" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="AbAq9ewkS6oZXFf50iRQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.557;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AbAq9ewkS6oZXFf50iRQ-16" target="AbAq9ewkS6oZXFf50iRQ-17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
