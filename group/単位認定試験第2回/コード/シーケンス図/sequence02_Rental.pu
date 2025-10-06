@@ -10,34 +10,38 @@ control 貸出確認
 entity 貸出情報 
 boundary 貸出完了画面
 
-activate 顧客 
-顧客 -> 図書貸出画面 : 貸出メニューを押す 
+activate 顧客
+顧客 -> 図書貸出画面 : 貸出メニューを押す
 deactivate 顧客
 
-activate 図書貸出画面 
-図書貸出画面 -> 会員確認 : 会員番号を入力() 
+activate 図書貸出画面
+図書貸出画面 -> 会員確認 : 会員番号を入力()
 deactivate 図書貸出画面
 
-activate 会員確認 
-会員確認 -> 会員情報 : 会員番号確認() 
-会員情報 --> 会員確認 : 会員情報 
-deactivate 会員確認 
-deactivate 会員情報
+activate 会員確認
+alt 貸出可能（基本フロー）
+    会員確認 -> 会員情報 : 会員番号確認()
+    会員情報 --> 会員確認 : 会員情報
+    deactivate 会員確認
+    deactivate 会員情報
 
-activate 図書確認 
-図書確認 -> 図書情報 : 図書ID確認() 
-図書情報 --> 図書確認 : 図書情報 
-deactivate 図書確認 
-deactivate 図書情報
+    activate 図書確認
+    図書確認 -> 図書情報 : 図書ID確認()
+    図書情報 --> 図書確認 : 図書情報
+    deactivate 図書確認
+    deactivate 図書情報
 
-activate 貸出確認 
-貸出確認 -> 貸出情報 : 貸出情報作成() 
-貸出情報 --> 貸出確認 : 貸出登録完了 
-deactivate 貸出確認 
-deactivate 貸出情報
+    activate 貸出確認
+    貸出確認 -> 貸出情報 : 貸出情報作成()
+    貸出情報 --> 貸出確認 : 貸出登録完了
+    貸出確認 -> 貸出完了画面 : 完了メッセージ表示
+    deactivate 貸出確認
+    deactivate 貸出情報
+    deactivate 貸出完了画面
 
-activate 貸出完了画面 
-貸出確認 -> 貸出完了画面 : 完了メッセージ表示 
-deactivate 貸出完了画面
+else 貸出不可（代替フロー1）
+    会員確認 -> 図書貸出画面 : エラーメッセージ表示
+    deactivate 会員確認
+end
 
 @enduml
