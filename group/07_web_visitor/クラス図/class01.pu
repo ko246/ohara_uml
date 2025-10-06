@@ -1,0 +1,111 @@
+@startuml
+' Skin Parameters for better visibility
+skinparam style strict
+skinparam class {
+    BackgroundColor White
+    BorderColor #2A5D8A
+    ArrowColor #2A5D8A
+}
+
+' Entity Classes (水色の円に対応する永続データ)
+package "エンティティ (Entity)" {
+    class 会員情報 {
+        + 会員番号 : String
+        + 氏名 : String
+        + 会員種別 : String
+        --
+        + get会員種別()
+    }
+
+    class 図書情報 {
+        + 管理番号 : String
+        + 書名 : String
+        + 著者 : String
+        + ISBN : String
+        --
+        + get貸出ステータス()
+    }
+
+    class 貸出情報 {
+        + 貸出ID : String
+        + 管理番号 (FK)
+        + 会員番号 (FK)
+        + 貸出日時 : Date
+        + 返却期限 : Date
+        --
+        + is期限超過()
+    }
+
+    class 予約情報 {
+        + 予約ID : String
+        + 管理番号 (FK)
+        + 会員番号 (FK)
+        + 予約日時 : Date
+        --
+        + get予約順位()
+    }
+}
+
+' Control Classes (業務ロジックとDB操作を担当)
+package "コントロール (Control)" {
+    class 予約管理 {
+        + 予約可否を判定(会員, 図書)
+        + 予約を保存(予約情報)
+        + 在庫を確認(図書)
+    }
+
+    class 貸出管理 {
+        + 貸出可否を判定(会員, 図書)
+        + 貸出を保存(貸出情報)
+    }
+
+    class 返却管理 {
+        + 期限超過を判定(貸出)
+        + 貸出状況を更新(貸出)
+        + 予約を確認(図書)
+        + 予約メールを送信(利用者)
+    }
+
+    class 履歴閲覧 {
+        + 図書を検索(書名)
+        + 履歴件数を取得(図書)
+    }
+}
+
+' Boundary Classes (画面/UIを担当)
+package "境界 (Boundary)" {
+    class 予約画面
+    class 貸出画面
+    class 返却画面
+    class 履歴画面
+}
+
+' Associations: Entity to Entity (データ間の関連)
+会員情報 "1" -- "0..*" 貸出情報 : 貸出実績
+図書情報 "1" -- "0..*" 貸出情報 : 貸し出された
+
+会員情報 "1" -- "0..*" 予約情報 : 予約者
+図書情報 "1" -- "0..*" 予約情報 : 予約対象
+
+' Associations: View to Control (画面から制御への呼び出し)
+予約画面 -up-> 予約管理 : <<uses>>
+貸出画面 -up-> 貸出管理 : <<uses>>
+返却画面 -up-> 返却管理 : <<uses>>
+履歴画面 -up-> 履歴閲覧 : <<uses>>
+
+' Associations: Control to Entity (制御からデータへの操作/参照)
+予約管理 .right.> 図書情報 : 参照
+予約管理 .right.> 会員情報 : 参照
+予約管理 .right.> 予約情報 : 操作
+
+貸出管理 .right.> 図書情報 : 参照
+貸出管理 .right.> 会員情報 : 参照
+貸出管理 .right.> 貸出情報 : 操作
+
+返却管理 .right.> 貸出情報 : 操作
+返却管理 .right.> 予約情報 : 参照/操作
+
+履歴閲覧 .right.> 貸出情報 : 参照
+履歴閲覧 .right.> 図書情報 : 参照
+
+@enduml
