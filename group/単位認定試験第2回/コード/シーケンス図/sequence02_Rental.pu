@@ -1,55 +1,43 @@
-@startuml カートに追加_シーケンス図_完了画面削除
+@startuml 図書貸出_シーケンス図
 
-actor 顧客
-boundary 貸し出し画面
-control カート追加制御
-entity 商品
-entity カート
-boundary カート画面
+actor 顧客 
+boundary 図書貸出画面 
+control 会員確認 
+entity 会員情報 
+control 図書確認 
+entity 図書情報 
+control 貸出確認 
+entity 貸出情報 
+boundary 貸出完了画面
 
-activate 顧客
-顧客 -> 商品詳細画面 : カートに追加ボタンを押す
+activate 顧客 
+顧客 -> 図書貸出画面 : 貸出メニューを押す 
 deactivate 顧客
 
-activate 商品詳細画面
-商品詳細画面 -> カート追加制御 : カートに追加()
+activate 図書貸出画面 
+図書貸出画面 -> 会員確認 : 会員番号を入力() 
+deactivate 図書貸出画面
 
-deactivate 商品詳細画面
+activate 会員確認 
+会員確認 -> 会員情報 : 会員番号確認() 
+会員情報 --> 会員確認 : 会員情報 
+deactivate 会員確認 
+deactivate 会員情報
 
-activate カート追加制御
-カート追加制御 -> 商品 : 在庫確認()
+activate 図書確認 
+図書確認 -> 図書情報 : 図書ID確認() 
+図書情報 --> 図書確認 : 図書情報 
+deactivate 図書確認 
+deactivate 図書情報
 
-activate 商品
-alt 在庫あり (基本フロー)
-    商品 --> カート追加制御 : 在庫あり()
-    deactivate 商品
+activate 貸出確認 
+貸出確認 -> 貸出情報 : 貸出情報作成() 
+貸出情報 --> 貸出確認 : 貸出登録完了 
+deactivate 貸出確認 
+deactivate 貸出情報
 
-    ' 基本フロー 2: カートのデータを作成
-    カート追加制御 -> カート : カート情報作成()
-
-    activate カート
-    カート --> カート追加制御 : 保存が完了()
-    deactivate カート
-
-    ' 基本フロー 3 & 4: カート画面を表示 (完了メッセージは画面内で処理されると解釈)
-    カート追加制御 -> カート画面 : 表示()
-    
-    activate カート画面
-    ' 顧客への最終的な表示は画面（境界クラス）が責任を負うため、矢印を省略
-    deactivate カート画面
-    
-else 在庫なし (代替フロー 1)
-    商品 --> カート追加制御 : 在庫なし()
-    deactivate 商品
-    
-    ' 代替フロー 1: エラーメッセージを表示
-    カート追加制御 -> 商品詳細画面 : エラーメッセージ表示()
-    
-    activate 商品詳細画面
-    ' 顧客への最終的な表示は画面（境界クラス）が責任を負うため、矢印を省略
-    deactivate 商品詳細画面
-end
-
-deactivate カート追加制御
+activate 貸出完了画面 
+貸出確認 -> 貸出完了画面 : 完了メッセージ表示 
+deactivate 貸出完了画面
 
 @enduml
