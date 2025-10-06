@@ -18,7 +18,8 @@ activate 図書貸出画面
 図書貸出画面 -> 会員確認 : 会員番号を入力() 
 deactivate 図書貸出画面
 
-activate 会員確認 
+activate 会員確認
+alt 貸出可能(基本フロー) 
 会員確認 -> 会員情報 : 会員番号確認() 
 会員情報 --> 会員確認 : 会員情報 
 deactivate 会員確認 
@@ -39,5 +40,9 @@ deactivate 貸出情報
 activate 貸出完了画面 
 貸出確認 -> 貸出完了画面 : 完了メッセージ表示 
 deactivate 貸出完了画面
+
+else 貸出不可(代替フロー1)
+activate 会員確認 
+deactivate 会員確認
 
 @enduml
